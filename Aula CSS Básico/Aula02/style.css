@@ -1,0 +1,19 @@
+/*
+Borda complicada
+.borda { 
+    border-width: 5px 10px 15px 20px;
+    
+    border-color: red green blue yellow;
+    
+}
+
+.dotted {border-top-style: dotted;}
+.dashed {border-style: dashed;}
+.solid {border-style: solid;}
+.none {border-style: none;}
+.hidden {border-style: hidden;} */
+
+
+.borda { 
+    border: 5px dashed blue;
+}

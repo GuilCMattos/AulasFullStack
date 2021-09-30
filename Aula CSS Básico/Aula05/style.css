@@ -1,0 +1,27 @@
+.cadastro { 
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+   
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    border: 2px solid blue;
+
+}
+
+.cadastro:visited { 
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+   
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    border: 2px solid blue;
+
+}
+.cadastro:hover { 
+    background-color: blue;
+    color: white;
+}

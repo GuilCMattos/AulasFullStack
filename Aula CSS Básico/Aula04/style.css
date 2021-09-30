@@ -1,0 +1,12 @@
+p { 
+    font-family: Helvetica;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+/* 
+ Como tirar a linha de baixo de um link.
+a { 
+    text-decoration: none;
+} */
