@@ -1,0 +1,35 @@
+
+
+#bg { 
+    background-image: url(../Desafio/bg.png);
+    height: 300px;
+
+    
+ } 
+ .container { 
+     padding: 15px;
+     font-size: 33px;
+     font-family: Helvetica;
+ }
+ .content { 
+     padding: 20px;
+     font-size: 23px;
+     text-transform: uppercase;
+     line-height: 44px;
+     
+}
+.ig { 
+    list-style-image: url(../Desafio/Insta.png);
+    
+    
+}
+
+.tt { 
+    list-style-image: url(../Desafio/Twitter.png);
+ 
+}
+
+.yt { 
+    list-style-image: url(../Desafio/Youtube.png);
+
+}
