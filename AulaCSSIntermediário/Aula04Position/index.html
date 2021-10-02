@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeira página</title>
+    <style>
+        body { 
+            font-size: 1.2rem;
+        }
+        .static { 
+            position: static;
+            left: 20px;
+        }
+        .rel { 
+            position: relative;
+            
+        }
+
+        .fixed { 
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+        }
+
+        .sticky { 
+            position: sticky;
+            top:0;
+        }
+        
+        .absolute { 
+            position: absolute;
+            top: 40px;
+        }
+
+        .quadrado { 
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+            
+        }
+
+        .ret { 
+            width: 100px;
+            height: 500px;
+            margin-top: 10px;
+            overflow: auto;
+        }
+
+        .bg-red { 
+            background-color: red;
+        }
+        .bg-blue { 
+            background-color: blue;
+        }
+
+        .bg-green { 
+            background-color: green;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="ret bg-blue">
+
+        <div class="quadrado bg-red"></div>
+        
+        <div class="quadrado bg-red"></div>
+        <div class="quadrado bg-green sticky"></div>
+        <div class="quadrado bg-red"></div>
+        <div class="quadrado bg-red"></div>
+        <div class="quadrado bg-red"></div>
+        <div class="quadrado bg-red"></div>
+        <div class="quadrado bg-red"></div>
+        <div class="quadrado bg-red"></div>
+        <div class="quadrado bg-red"></div>
+        <div class="quadrado bg-red"></div>
+
+    </div>
+
+    
+</body>
+</html>

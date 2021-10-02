@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha primeira página</title>
+   
+    <style>
+        body { 
+            font-size: 20px;        }
+    </style>
+</head>
+<body>
+
+    <!--
+        Display:block - é o que acontece abaixo e pode aumentar e diminuir a altura(height) e a largura(width) 
+       
+        Display:inline - ele fica inline como próprio nome diz, porém não dá para alterar nem height nem width! 
+            exemplo de inline é o <span> 
+
+        Display de <p> também é block! O <p> já vem com uma margem.        
+                -->
+
+    <div style="background-color: blue; color: white;">
+        <div> Está aqui é uma DIV normal</div>
+        <div> E aqui a história <div style = "background-color: red; width: 500px; height: 50px;">div de dentro</div>
+    continua</div>
+    </div>
+
+    <div>
+        <p style="margin: 0;">Esse é um paragráfo normal</p>
+        <p style="margin:0;">E aqui a história continua</p>
+    </div>
+    
+    <div>
+        <p>
+            Aqui eu tenho o inicio de um parágrafo <span style="background-color: green; width: 500px; display:inline-block">um SPAN no meio</span> E o fim do parágrafo.
+        </p>
+    </div>
+
+    <div>
+        <p style="background-color: blue;">
+            Aqui eu tenho o inicio de um parágrafo <div style="background-color: red;">uma div no meio</div> E o fim do parágrafo.
+        </p>
+    </div>
+
+    <div>
+        <!-- Caso eu queira esconder algum objeto utilizar o style="display:none" porém consigo esconder deixando a imagem
+        na proporção dela utilizando o visibility:hidden-->
+        <p>
+            Aqui eu tenho o inicio de um parágrafo <img src="../Aula01Display/Twitter.png" style="width: 240px; visibility: hidden;"> E o fim do parágrafo.
+        </p>
+    </div>
+    
+</body>
+</html>
