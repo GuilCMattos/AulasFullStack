@@ -1,0 +1,30 @@
+p::first-letter { 
+    font-size: 5rem;
+    color: red;
+}
+
+p::first-line { 
+   
+    color: blue;
+}
+
+li { 
+    list-style: none;
+}
+
+li::after { 
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url(play.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+
+} 
+
+p::selection { 
+    background-color: yellow;
+    color: black;
+}
