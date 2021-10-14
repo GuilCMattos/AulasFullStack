@@ -1,0 +1,38 @@
+.container { 
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    /* justify-content: center;*/
+    /* align-items: flex-end;  */
+    /* align-content: space-around; */
+    background-color: darkgrey;
+    height: 400px;
+    color:white;
+}
+
+/* ja o WRAP empurra para o lado mas inverte 
+flex empurra os objetos para o lado direito
+flex-shrink: faz o elemento não encolher
+Quando estiver utilizando Display Flex, podemos usar o order com uma numeração da onde iria o objeto
+aling-self permite escolher o local do objeto 
+*/
+
+.r1 {
+
+    background-color: red;
+}
+.r2 {
+    align-self: flex-end;
+    background-color:blue;
+
+}
+.r3 { 
+    
+    background-color: green;
+}
+
+.rect { 
+width: 150px;
+height: 150px;
+
+}
